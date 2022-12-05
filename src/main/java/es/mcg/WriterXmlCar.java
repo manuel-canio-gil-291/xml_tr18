@@ -32,9 +32,9 @@ public class WriterXmlCar {
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource xmlAsObject = new DOMSource(document);
             StreamResult xmlAsFile = new StreamResult(output);
-            transformer.transform(xmlAsObject, xmlAsFile);
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
             transformer.setOutputProperty("{http://xml.apache.org/xslt}-indent-amount", "2");
+            transformer.transform(xmlAsObject, xmlAsFile);
         } 
         catch (TransformerException transformerException) 
         {
