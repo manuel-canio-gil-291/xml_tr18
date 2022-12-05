@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><coches><coche><marca>Volkswagen</marca><modelo>Polo</modelo><puertas>5</puertas><kilometros>200000</kilometros><motor><revoluciones>1500</revoluciones><tipo>diesel</tipo></motor></coche></coches>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coches>
+    <coche>
+        <marca>Volkswagen</marca>
+        <modelo>Polo</modelo>
+        <puertas>5</puertas>
+        <kilometros>200000</kilometros>
+        <motor>
+            <revoluciones>1500</revoluciones>
+            <tipo>diesel</tipo>
+        </motor>
+    </coche>
+</coches>
